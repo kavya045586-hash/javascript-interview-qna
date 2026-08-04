@@ -10,16 +10,56 @@ to the top of their scope during the compile phase, before code executes.
 - Function expressions/arrow functions are NOT hoisted the same way (only the variable is hoisted, not the assignment)
 
 **Example:**
-​```js
+```js
 console.log(x); // undefined (not an error)
 var x = 5;
 
 console.log(y); // ❌ ReferenceError
 let y = 10;
 
-greet(); // "Hello" — works fine
+greet(); // "Hello"                                 works fine
 function greet() { console.log("Hello"); }
-​```
+```
+
+---
+
+### 🔹 var Hoisting
+
+![var hoisting](../images/var-hoising.png)
+
+`var` is hoisted and auto-initialized to `undefined`, so accessing it before
+its declaration line gives `undefined`, not an error.
+
+---
+
+### 🔹 let / const Hoisting (TDZ)
+
+![let const hoisting](../images/let-const%20hoising.png)
+
+`let`/`const` are hoisted too, but NOT initialized — they stay in the
+**Temporal Dead Zone** until their declaration line runs, so accessing them
+early throws a `ReferenceError`.
+
+---
+
+### 🔹 Function Declaration Hoisting
+
+![function hoisting 1](../images/function-hoisting%201.png)
+
+Function declarations are hoisted **completely** — both the name and the
+function body — so calling them before their written position works fine.
+
+---
+
+### 🔹 Function Expression Hoisting
+
+![function hoisting 2](../images/function%20hoisting%202.png)
+
+Function expressions (`var greet = function(){}`) only hoist the **variable**,
+not the function body. Calling `greet()` before the assignment line throws a
+`TypeError: greet is not a function`.
+
+---
 
 **Follow-up questions interviewers ask:**
 - Why doesn't `let` throw "undefined" like `var` does?
