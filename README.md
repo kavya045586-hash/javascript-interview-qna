@@ -15,7 +15,6 @@ my own words with code examples. Building this alongside my placement prep.
 - [x] [What is a Browser + Types / What is JavaScript](./00-Intro/Browser.md)
 
 ### 01-basics
-- [x] [JS Intro Recap](./01-basics/js-intro.md)
 - [x] [var vs let vs const](./01-basics/var-let-const.md)
 - [x] [Hoisting](./01-basics/hoisting.md)
 - [x] [Temporal Dead Zone (TDZ)](./01-basics/tdz.md)
