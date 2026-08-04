@@ -1,11 +1,11 @@
 # JavaScript Interview Q&A 📘
 
-Daily JavaScript interview prep — 3 questions a day for 60 days, explained in
+Daily JavaScript interview prep — answers explained in
 my own words with code examples. Building this alongside my placement prep.
 
-🎥 I also teach JS/React on my YouTube channel **kannada_techie** (in Kannada).
 
-**Started:** Day 1 — Aug 4, 2026 | **Target:** 60 days, ~180 questions, interview-ready.
+
+**Started:** Day 1 — Aug 4, 2026 | **Target:** 180 questions, interview-ready.
 
 ---
 
@@ -15,10 +15,10 @@ my own words with code examples. Building this alongside my placement prep.
 - [x] [What is a Browser + Types / What is JavaScript](./00-Intro/Browser.md)
 
 ### 01-basics
-- [ ] [JS Intro Recap](./01-basics/js-intro.md)
-- [ ] [var vs let vs const](./01-basics/var-let-const.md)
-- [ ] [Hoisting](./01-basics/hoisting.md)
-- [ ] [Temporal Dead Zone (TDZ)](./01-basics/tdz.md)
+- [x] [JS Intro Recap](./01-basics/js-intro.md)
+- [x] [var vs let vs const](./01-basics/var-let-const.md)
+- [x] [Hoisting](./01-basics/hoisting.md)
+- [x] [Temporal Dead Zone (TDZ)](./01-basics/tdz.md)
 - [ ] [Data Types & typeof](./01-basics/data-types-typeof.md)
 - [ ] [Primitive vs Reference Types](./01-basics/primitive-vs-reference.md)
 - [ ] [== vs === and Type Coercion](./01-basics/equality-coercion.md)
@@ -99,9 +99,3 @@ my own words with code examples. Building this alongside my placement prep.
 - [ ] [Final Review Checklist](./09-mock-review/final-review-checklist.md)
 
 ---
-
-## 📅 Daily Log
-See [daily-log.md](./daily-log.md) for what was covered each day.
-
-## 🧠 Weak Topics
-See [weak-topics.md](./weak-topics.md) — things to revisit before the actual interview.
