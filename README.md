@@ -9,6 +9,7 @@ my own words with code examples. Building this alongside my placement prep.
 
 ### 00-Intro
 - [x] [What is a Browser + Types / What is JavaScript](./00-Intro/Browser.md)
+- [x] [Extra Topics & Quiz](./00-Intro/extrafile.md)
 
 ### 01-basics
 - [x] [var vs let vs const](./01-basics/var-let-const.md)
@@ -20,6 +21,8 @@ my own words with code examples. Building this alongside my placement prep.
 - [x] [Truthy vs Falsy Values](./01-basics/truthy-falsy.md)
 - [x] [Scope Types (Global/Function/Block)](./01-basics/scope-types.md)
 - [x] [Lexical Scope](./01-basics/lexical-scope.md)
+- [x] [Missed Basics Topics](./01-basics/missed-basics-topics.md)
+- [x] [Basics Quiz](./01-basics/basics-quiz.md)
 
 ### 02-functions
 - [ ] [Closures](./02-functions/closures.md)
@@ -30,6 +33,7 @@ my own words with code examples. Building this alongside my placement prep.
 - [ ] [call, apply, bind](./02-functions/call-apply-bind.md)
 - [ ] [Higher Order Functions](./02-functions/higher-order-functions.md)
 - [ ] [Callbacks](./02-functions/callbacks.md)
+- [ ] [Extra Topics & Quiz](./02-functions/extrafile.md)
 
 ### 03-async
 - [ ] [Callback Hell](./03-async/callback-hell.md)
@@ -40,6 +44,7 @@ my own words with code examples. Building this alongside my placement prep.
 - [ ] [Call Stack & Event Loop](./03-async/call-stack-event-loop.md)
 - [ ] [Microtask vs Macrotask Queue](./03-async/microtask-vs-macrotask.md)
 - [ ] [setTimeout vs setInterval](./03-async/settimeout-setinterval.md)
+- [ ] [Extra Topics & Quiz](./03-async/extrafile.md)
 
 ### 04-objects-arrays
 - [ ] [Object Creation & Shorthand](./04-objects-arrays/object-creation-shorthand.md)
@@ -51,6 +56,7 @@ my own words with code examples. Building this alongside my placement prep.
 - [ ] [Array: map, filter, reduce](./04-objects-arrays/array-map-filter-reduce.md)
 - [ ] [Array: forEach, find, some/every](./04-objects-arrays/array-foreach-find-some-every.md)
 - [ ] [JSON.stringify / parse](./04-objects-arrays/json-stringify-parse.md)
+- [ ] [Extra Topics & Quiz](./04-objects-arrays/extrafile.md)
 
 ### 05-es6-plus
 - [ ] [Modules (import/export)](./05-es6-plus/modules-import-export.md)
@@ -60,6 +66,7 @@ my own words with code examples. Building this alongside my placement prep.
 - [ ] [String Methods & Template Literals](./05-es6-plus/string-methods-template-literals.md)
 - [ ] [Generators & Iterators](./05-es6-plus/generators-iterators.md)
 - [ ] [WeakMap & WeakSet](./05-es6-plus/weakmap-weakset.md)
+- [ ] [Extra Topics & Quiz](./05-es6-plus/extrafile.md)
 
 ### 06-dom
 - [ ] [Event Bubbling vs Capturing](./06-dom/event-bubbling-capturing.md)
@@ -70,6 +77,7 @@ my own words with code examples. Building this alongside my placement prep.
 - [ ] [LocalStorage vs SessionStorage vs Cookies](./06-dom/storage-vs-cookies.md)
 - [ ] [CORS](./06-dom/cors.md)
 - [ ] [Fetch API vs XMLHttpRequest](./06-dom/fetch-vs-xhr.md)
+- [ ] [Extra Topics & Quiz](./06-dom/extrafile.md)
 
 ### 07-tricky-outputs
 - [ ] [Hoisting + Closures Combined](./07-tricky-outputs/hoisting-closures-tricky.md)
@@ -79,6 +87,7 @@ my own words with code examples. Building this alongside my placement prep.
 - [ ] [NaN & Equality Edge Cases](./07-tricky-outputs/nan-equality-tricky.md)
 - [ ] [Loop + Closure (var vs let)](./07-tricky-outputs/loop-closure-tricky.md)
 - [ ] [Type Coercion in Operations](./07-tricky-outputs/type-coercion-tricky.md)
+- [ ] [Extra Topics & Quiz](./07-tricky-outputs/extrafile.md)
 
 ### 08-practical
 - [ ] [Currying & Function Composition](./08-practical/currying-composition.md)
@@ -88,9 +97,11 @@ my own words with code examples. Building this alongside my placement prep.
 - [ ] [Polyfills (map/filter/bind)](./08-practical/polyfills.md)
 - [ ] [Design Patterns in JS](./08-practical/design-patterns.md)
 - [ ] [Performance: Reflow/Repaint](./08-practical/performance-reflow-repaint.md)
+- [ ] [Extra Topics & Quiz](./08-practical/extrafile.md)
 
 ### 09-mock-review
 - [ ] [Mock Interview Notes](./09-mock-review/mock-interview-notes.md)
 - [ ] [Final Review Checklist](./09-mock-review/final-review-checklist.md)
+- [ ] [Extra Topics & Quiz](./09-mock-review/extrafile.md)
 
 ---
