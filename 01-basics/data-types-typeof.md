@@ -32,6 +32,11 @@ let user = { name: "Kavya" }; // Object
 ---
 
 ### 🔹 Why is Symbol used?
+```js
+let user = {};
+user.id = "from library A";
+user.id = "from library B"; // oops, overwrote it — same key "id"
+```
 
 Object keys are normally strings, but string keys can **accidentally clash**
 — if two different scripts both add a property called `id` to the same
