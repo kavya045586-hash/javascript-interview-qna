@@ -1,8 +1,5 @@
 # Extra Basics Topics (Not Yet Covered)
 
-These commonly come up in interviews alongside what you've already learned.
-Worth adding as short notes before moving to 02-functions.
-
 ---
 
 ## 1. Ternary Operator
