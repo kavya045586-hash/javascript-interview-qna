@@ -62,11 +62,30 @@ user[id2] = "from library B";
 console.log(user[id1]); // "from library A" — safe, no overwrite
 ```
 
-**Real-world use cases:**
-- Avoiding property name collisions in large codebases or third-party libraries
-- "Hidden" properties — Symbol keys don't show up in `for...in` or `Object.keys()`
-- Built-in JS features use symbols internally (e.g. `Symbol.iterator`, which makes an object loopable with `for...of`)
+---
 
-**Interview note:** Symbol is usually asked as a "do you know what it's for"
-question, not something you'll use daily as a beginner — this level of
-understanding is enough.
+## Q: What does the `typeof` operator do?
+
+**Answer:**
+
+`typeof` returns a string indicating the data type of a value or variable.
+It's commonly used to check a variable's type before performing operations.
+
+**Example:**
+
+```js
+typeof "hello";      // "string"
+typeof 42;            // "number"
+typeof true;           // "boolean"
+typeof undefined;      // "undefined"
+typeof null;            // "object"  ⚠️ known JS quirk
+typeof {};               // "object"
+typeof [];                // "object"  ⚠️ arrays are objects too
+typeof function(){};       // "function"
+typeof Symbol();            // "symbol"
+```
+
+**Follow-up questions interviewers ask:**
+
+- How do you check if something is actually an array, since `typeof` says "object"? (Answer: `Array.isArray(value)`)
+- Why does `typeof null` return `"object"` instead of `"null"`?
