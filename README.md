@@ -25,9 +25,9 @@ my own words with code examples. Building this alongside my placement prep.
 - [x] [Basics Quiz](./01-basics/basics-quiz.md)
 
 ### 02-functions
-- [ ] [Closures](./02-functions/closures.md)
-- [ ] [IIFE](./02-functions/iife.md)
-- [ ] [Function Declaration vs Expression](./02-functions/function-declaration-vs-expression.md)
+- [x] [Closures](./02-functions/closures.md)
+- [x] [IIFE](./02-functions/iife.md)
+- [x] [Function Declaration vs Expression](./02-functions/function-declaration-vs-expression.md)
 - [ ] [Arrow vs Normal Functions](./02-functions/arrow-vs-normal-functions.md)
 - [ ] [this Keyword](./02-functions/this-keyword.md)
 - [ ] [call, apply, bind](./02-functions/call-apply-bind.md)
