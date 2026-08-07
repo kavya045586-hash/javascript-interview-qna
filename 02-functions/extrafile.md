@@ -314,3 +314,169 @@ boundGreet();
 arguments ("Hello"), so calling boundGreet() with no further arguments
 still has everything it needs.
 </details>
+
+
+---
+
+## Section 9: More Interview Favorites (Advanced)
+
+**Q23. What does this print?**
+```js
+function outer() {
+  var x = 1;
+  function inner() {
+    console.log(x);
+    var x = 2;
+  }
+  inner();
+}
+outer();
+```
+<details><summary>Answer</summary>
+undefined — inside inner(), var x is hoisted to the top of inner()'s own
+scope, shadowing the outer x completely. So console.log(x) refers to
+inner's local x (not yet assigned, hence undefined), NOT outer's x = 1.
+</details>
+
+---
+
+**Q24. What's the difference between `function.length` and `arguments.length`?**
+<details><summary>Answer</summary>
+`function.length` (no parentheses — a property, not a call) tells you how
+many parameters a function was DEFINED with. `arguments.length` tells you
+how many arguments were actually PASSED when calling it. These can differ
+if you call a function with more or fewer arguments than it declares.
+</details>
+
+```js
+function greet(a, b, c) {
+  console.log(arguments.length);
+}
+greet(1, 2);           // arguments.length = 2
+console.log(greet.length); // function.length = 3
+```
+
+---
+
+**Q25. Can a closure cause a memory leak? How?**
+<details><summary>Answer</summary>
+Yes — if a closure keeps a reference to a large object/variable that's no
+longer needed, JavaScript's garbage collector can't free that memory,
+because the closure is still "holding on" to it. This becomes a real
+problem in long-running applications (e.g., event listeners with closures
+that are never removed).
+</details>
+
+---
+
+**Q26. What is currying, and how does it relate to Higher Order Functions?**
+<details><summary>Answer</summary>
+Currying transforms a function that takes multiple arguments into a chain
+of functions that each take ONE argument. It relies entirely on closures
+and HOFs — each inner function "remembers" the previous arguments via
+closure, and the outer function returns a function (making it a HOF).
+</details>
+
+```js
+function add(a) {
+  return function (b) {
+    return function (c) {
+      return a + b + c;
+    };
+  };
+}
+console.log(add(1)(2)(3)); // 6
+```
+
+---
+
+**Q27. What does this print, and why is it a classic interview trap?**
+```js
+for (var i = 0; i < 3; i++) {
+  setTimeout(function () {
+    console.log(i);
+  }, 100);
+}
+```
+<details><summary>Answer</summary>
+3, 3, 3 — NOT 0, 1, 2. Because `var` is function-scoped (not block-scoped),
+all three setTimeout callbacks share the SAME `i`. By the time any of them
+actually run (after the loop finishes), `i` has already become 3. This is
+one of the most commonly asked closure+loop questions in interviews.
+</details>
+
+---
+
+**Q28. How do you fix Q27 so it prints 0, 1, 2 instead?**
+<details><summary>Answer</summary>
+Two ways: (1) Replace `var` with `let` — since let is block-scoped, each
+loop iteration gets its OWN separate `i`. (2) Wrap the setTimeout in an
+IIFE that captures the current value of i as a parameter, creating a new
+scope per iteration.
+</details>
+
+```js
+// Fix 1: use let
+for (let i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 100);
+} // 0, 1, 2
+
+// Fix 2: IIFE
+for (var i = 0; i < 3; i++) {
+  (function (j) {
+    setTimeout(() => console.log(j), 100);
+  })(i);
+} // 0, 1, 2
+```
+
+---
+
+**Q29. What does `this` refer to inside a `setInterval` callback written as a regular function versus an arrow function, inside an object method?**
+<details><summary>Answer</summary>
+Same rule as setTimeout — a regular function callback loses `this` (defaults
+to global/undefined), while an arrow function inherits `this` from the
+enclosing method, keeping it correctly bound to the object.
+</details>
+
+---
+
+**Q30. What's the difference between `Function.prototype.call()` and simply invoking a function normally?**
+<details><summary>Answer</summary>
+A normal call `fn()` lets JavaScript decide `this` automatically (based on
+how it's called). `fn.call(obj)` lets YOU explicitly choose what `this`
+should be inside that function call, regardless of how it's normally
+invoked — useful for "borrowing" methods from one object to use with
+another.
+</details>
+
+---
+
+**Q31. Can you use `bind()` on an arrow function? What happens?**
+<details><summary>Answer</summary>
+You technically CAN call `.bind()` on an arrow function, but it has NO
+effect on `this` — since arrow functions don't have their own `this` to
+begin with, there's nothing for bind() to override. The arrow function's
+this remains lexically inherited regardless.
+</details>
+
+---
+
+**Q32. What does this print?**
+```js
+const person = {
+  name: "Kavya",
+  friends: ["Nagar", "Priya"],
+  printFriends: function () {
+    this.friends.forEach(function (friend) {
+      console.log(this.name + " is friends with " + friend);
+    });
+  }
+};
+person.printFriends();
+```
+<details><summary>Answer</summary>
+"undefined is friends with Nagar" and "undefined is friends with Priya" —
+the regular function callback inside forEach() loses `this` (same trap as
+setTimeout). Fix: use an arrow function for the forEach callback instead,
+so it inherits `this` from printFriends().
+</details>
