@@ -28,12 +28,12 @@ my own words with code examples. Building this alongside my placement prep.
 - [x] [Closures](./02-functions/closures.md)
 - [x] [IIFE](./02-functions/iife.md)
 - [x] [Function Declaration vs Expression](./02-functions/function-declaration-vs-expression.md)
-- [ ] [Arrow vs Normal Functions](./02-functions/arrow-vs-normal-functions.md)
-- [ ] [this Keyword](./02-functions/this-keyword.md)
-- [ ] [call, apply, bind](./02-functions/call-apply-bind.md)
-- [ ] [Higher Order Functions](./02-functions/higher-order-functions.md)
-- [ ] [Callbacks](./02-functions/callbacks.md)
-- [ ] [Extra Topics & Quiz](./02-functions/extrafile.md)
+- [x] [Arrow vs Normal Functions](./02-functions/arrow-vs-normal-functions.md)
+- [x] [this Keyword](./02-functions/this-keyword.md)
+- [x] [call, apply, bind](./02-functions/call-apply-bind.md)
+- [x] [Higher Order Functions](./02-functions/higher-order-functions.md)
+- [x] [Callbacks](./02-functions/callbacks.md)
+- [x] [Extra Topics & Quiz](./02-functions/extrafile.md)
 
 ### 03-async
 - [ ] [Callback Hell](./03-async/callback-hell.md)
