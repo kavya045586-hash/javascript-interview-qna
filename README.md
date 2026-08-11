@@ -36,12 +36,12 @@ my own words with code examples. Building this alongside my placement prep.
 - [x] [Extra Topics & Quiz](./02-functions/extrafile.md)
 
 ### 03-async
-- [ ] [Callback Hell](./03-async/callback-hell.md)
-- [ ] [Promises Basics](./03-async/promises-basics.md)
-- [ ] [Promise.all / race / allSettled](./03-async/promise-all-race-allsettled.md)
-- [ ] [Async/Await](./03-async/async-await.md)
-- [ ] [try/catch with Async](./03-async/try-catch-async.md)
-- [ ] [Call Stack & Event Loop](./03-async/call-stack-event-loop.md)
+- [x] [Callback Hell](./03-async/callback-hell.md)
+- [x] [Promises Basics](./03-async/promises-basics.md)
+- [x] [Promise.all / race / allSettled](./03-async/promise-all-race-allsettled.md)
+- [x] [Async/Await](./03-async/async-await.md)
+- [x] [try/catch with Async](./03-async/try-catch-async.md)
+- [x] [Call Stack & Event Loop](./03-async/call-stack-event-loop.md)
 - [ ] [Microtask vs Macrotask Queue](./03-async/microtask-vs-macrotask.md)
 - [ ] [setTimeout vs setInterval](./03-async/settimeout-setinterval.md)
 - [ ] [Extra Topics & Quiz](./03-async/extrafile.md)
