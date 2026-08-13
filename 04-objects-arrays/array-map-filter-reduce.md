@@ -33,5 +33,32 @@ const sum = numbers.reduce((accumulator, current) => accumulator + current, 0);
 
 console.log(sum); // 10
 ```
+**Real-world combo — chaining them together:**
 
-**Step by step how reduce works:**
+```js
+const orders = [
+  { item: "Book", price: 300 },
+  { item: "Pen", price: 20 },
+  { item: "Laptop", price: 50000 }
+];
+
+const total = orders
+  .filter(order => order.price > 100)   // remove cheap items
+  .map(order => order.price)             // extract just the prices
+  .reduce((sum, price) => sum + price, 0); // add them up
+
+console.log(total); // 50300
+```
+
+**Quick comparison table:**
+
+| Method | Returns | Changes array length? |
+|---|---|---|
+| `map()` | New array | No — same length |
+| `filter()` | New array | Possibly shorter |
+| `reduce()` | Single value | Collapses to one value |
+
+**Follow-up questions interviewers ask:**
+
+- What's the second argument to `reduce()` for? (The initial value of the accumulator — if omitted, it defaults to the array's first element)
+- Do map/filter/reduce mutate the original array? (No — all three return new results, leaving the original untouched)
