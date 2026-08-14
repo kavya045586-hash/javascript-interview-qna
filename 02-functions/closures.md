@@ -57,6 +57,44 @@ const double = multiplier(2);
 console.log(double(5)); // 10
 ```
 
+```js
+let age = 0;
+
+function outer() {
+  let count = 0;
+  age++; // increments only when outer() is called
+
+  function inner() {
+    count++;
+    return { count, age };
+  }
+
+  return inner;
+}
+
+const counter1 = outer();
+console.log(counter1()); // { count: 1, age: 1 }
+console.log(counter1()); // { count: 2, age: 1 }
+
+const counter2 = outer();
+console.log(counter2()); // { count: 1, age: 2 }
+console.log(counter2()); // { count: 2, age: 2 }
+```
+
+✅ Explanation
+
+-count is local to each outer() call.
+
+-Every inner() remembers its own count because of closure.
+
+-That’s why counter1 and counter2 have independent counters.
+
+-age is global.
+
+-It increments only when outer() runs, not when inner() runs.
+
+-So age tracks how many times you created a new counter, while count tracks how many times you used that counter.
+
 **Follow-up questions interviewers ask:**
 
 - Why do closures matter for data privacy?
