@@ -59,13 +59,13 @@ my own words with code examples. Building this alongside my placement prep.
 - [x] [Extra Topics & Quiz](./04-objects-arrays/extrafile.md)
 
 ### 05-es6-plus
-- [ ] [Modules (import/export)](./05-es6-plus/modules-import-export.md)
-- [ ] [Optional Chaining & Nullish Coalescing](./05-es6-plus/optional-chaining-nullish.md)
-- [ ] [Map/Set vs Object/Array](./05-es6-plus/map-set-vs-object-array.md)
-- [ ] [Spread vs Rest Operator](./05-es6-plus/spread-vs-rest.md)
-- [ ] [String Methods & Template Literals](./05-es6-plus/string-methods-template-literals.md)
-- [ ] [Generators & Iterators](./05-es6-plus/generators-iterators.md)
-- [ ] [WeakMap & WeakSet](./05-es6-plus/weakmap-weakset.md)
+- [x] [Modules (import/export)](./05-es6-plus/modules-import-export.md)
+- [x] [Optional Chaining & Nullish Coalescing](./05-es6-plus/optional-chaining-nullish.md)
+- [x] [Map/Set vs Object/Array](./05-es6-plus/map-set-vs-object-array.md)
+- [x] [Spread vs Rest Operator](./05-es6-plus/spread-vs-rest.md)
+- [x] [String Methods & Template Literals](./05-es6-plus/string-methods-template-literals.md)
+- [x] [Generators & Iterators](./05-es6-plus/generators-iterators.md)
+- [x] [WeakMap & WeakSet](./05-es6-plus/weakmap-weakset.md)
 - [ ] [Extra Topics & Quiz](./05-es6-plus/extrafile.md)
 
 ### 06-dom
