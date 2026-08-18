@@ -66,18 +66,18 @@ my own words with code examples. Building this alongside my placement prep.
 - [x] [String Methods & Template Literals](./05-es6-plus/string-methods-template-literals.md)
 - [x] [Generators & Iterators](./05-es6-plus/generators-iterators.md)
 - [x] [WeakMap & WeakSet](./05-es6-plus/weakmap-weakset.md)
-- [ ] [Extra Topics & Quiz](./05-es6-plus/extrafile.md)
+- [x] [Extra Topics & Quiz](./05-es6-plus/extrafile.md)
 
 ### 06-dom
-- [ ] [Event Bubbling vs Capturing](./06-dom/event-bubbling-capturing.md)
-- [ ] [Event Delegation](./06-dom/event-delegation.md)
-- [ ] [DOM Manipulation Basics](./06-dom/dom-manipulation-basics.md)
-- [ ] [addEventListener / removeEventListener](./06-dom/addEventListener-removeEventListener.md)
-- [ ] [Debounce vs Throttle](./06-dom/debounce-vs-throttle.md)
-- [ ] [LocalStorage vs SessionStorage vs Cookies](./06-dom/storage-vs-cookies.md)
-- [ ] [CORS](./06-dom/cors.md)
-- [ ] [Fetch API vs XMLHttpRequest](./06-dom/fetch-vs-xhr.md)
-- [ ] [Extra Topics & Quiz](./06-dom/extrafile.md)
+- [x] [Event Bubbling vs Capturing](./06-dom/event-bubbling-capturing.md)
+- [x] [Event Delegation](./06-dom/event-delegation.md)
+- [x] [DOM Manipulation Basics](./06-dom/dom-manipulation-basics.md)
+- [x] [addEventListener / removeEventListener](./06-dom/addEventListener-removeEventListener.md)
+- [x] [Debounce vs Throttle](./06-dom/debounce-vs-throttle.md)
+- [x] [LocalStorage vs SessionStorage vs Cookies](./06-dom/storage-vs-cookies.md)
+- [x] [CORS](./06-dom/cors.md)
+- [x] [Fetch API vs XMLHttpRequest](./06-dom/fetch-vs-xhr.md)
+- [x] [Extra Topics & Quiz](./06-dom/extrafile.md)
 
 ### 07-tricky-outputs
 - [ ] [Hoisting + Closures Combined](./07-tricky-outputs/hoisting-closures-tricky.md)
