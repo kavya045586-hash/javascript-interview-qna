@@ -36,3 +36,32 @@ document.getElementById("btn").addEventListener("click", () => {
 ```
 
 Clicking the button logs, in order:
+Button clicked
+Inner clicked
+Outer clicked
+
+This is bubbling — event starts at the target (button) and bubbles UP.
+
+**Using capturing instead (third argument = true):**
+
+```js
+document.getElementById("outer").addEventListener("click", () => {
+  console.log("Outer clicked (capturing)");
+}, true); // true = capturing phase
+```
+
+If ALL listeners used capturing, the order would reverse: Outer → Inner → Button.
+
+**Stopping propagation:**
+
+```js
+document.getElementById("btn").addEventListener("click", (e) => {
+  e.stopPropagation(); // prevents the event from bubbling further up
+  console.log("Button clicked, propagation stopped");
+});
+```
+
+**Follow-up questions interviewers ask:**
+
+- What's the default phase for event listeners? (Bubbling)
+- What does `stopPropagation()` do, and when would you use it?
