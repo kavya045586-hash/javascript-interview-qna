@@ -90,18 +90,16 @@ my own words with code examples. Building this alongside my placement prep.
 - [x] [Extra Topics & Quiz](./07-tricky-outputs/extrafile.md)
 
 ### 08-practical
-- [ ] [Currying & Function Composition](./08-practical/currying-composition.md)
-- [ ] [Memoization](./08-practical/memoization.md)
-- [ ] [Error Handling & Custom Errors](./08-practical/error-handling-custom-errors.md)
-- [ ] [Strict Mode](./08-practical/strict-mode.md)
-- [ ] [Polyfills (map/filter/bind)](./08-practical/polyfills.md)
-- [ ] [Design Patterns in JS](./08-practical/design-patterns.md)
-- [ ] [Performance: Reflow/Repaint](./08-practical/performance-reflow-repaint.md)
-- [ ] [Extra Topics & Quiz](./08-practical/extrafile.md)
+- [x] [Currying & Function Composition](./08-practical/currying-composition.md)
+- [x] [Memoization](./08-practical/memoization.md)
+- [x] [Error Handling & Custom Errors](./08-practical/error-handling-custom-errors.md)
+- [x] [Strict Mode](./08-practical/strict-mode.md)
+- [x] [Polyfills (map/filter/bind)](./08-practical/polyfills.md)
+- [x] [Design Patterns in JS](./08-practical/design-patterns.md)
+- [x] [Performance: Reflow/Repaint](./08-practical/performance-reflow-repaint.md)
+- [x] [Extra Topics & Quiz](./08-practical/extrafile.md)
+---
 
-### 09-mock-review
-- [ ] [Mock Interview Notes](./09-mock-review/mock-interview-notes.md)
-- [ ] [Final Review Checklist](./09-mock-review/final-review-checklist.md)
-- [ ] [Extra Topics & Quiz](./09-mock-review/extrafile.md)
+⭐ **If you found this repo helpful, consider giving it a star — it really helps and motivates me to keep this updated daily!**
 
 ---
