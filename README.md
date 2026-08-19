@@ -80,14 +80,14 @@ my own words with code examples. Building this alongside my placement prep.
 - [x] [Extra Topics & Quiz](./06-dom/extrafile.md)
 
 ### 07-tricky-outputs
-- [ ] [Hoisting + Closures Combined](./07-tricky-outputs/hoisting-closures-tricky.md)
-- [ ] [this in Callbacks/Arrow Functions](./07-tricky-outputs/this-callbacks-tricky.md)
-- [ ] [Async/Await + setTimeout Ordering](./07-tricky-outputs/async-settimeout-order-tricky.md)
-- [ ] [Array/Object Mutation Traps](./07-tricky-outputs/mutation-traps-tricky.md)
-- [ ] [NaN & Equality Edge Cases](./07-tricky-outputs/nan-equality-tricky.md)
-- [ ] [Loop + Closure (var vs let)](./07-tricky-outputs/loop-closure-tricky.md)
-- [ ] [Type Coercion in Operations](./07-tricky-outputs/type-coercion-tricky.md)
-- [ ] [Extra Topics & Quiz](./07-tricky-outputs/extrafile.md)
+- [x] [Hoisting + Closures Combined](./07-tricky-outputs/hoisting-closures-tricky.md)
+- [x] [this in Callbacks/Arrow Functions](./07-tricky-outputs/this-callbacks-tricky.md)
+- [x] [Async/Await + setTimeout Ordering](./07-tricky-outputs/async-settimeout-order-tricky.md)
+- [x] [Array/Object Mutation Traps](./07-tricky-outputs/mutation-traps-tricky.md)
+- [x] [NaN & Equality Edge Cases](./07-tricky-outputs/nan-equality-tricky.md)
+- [x] [Loop + Closure (var vs let)](./07-tricky-outputs/loop-closure-tricky.md)
+- [x] [Type Coercion in Operations](./07-tricky-outputs/type-coercion-tricky.md)
+- [x] [Extra Topics & Quiz](./07-tricky-outputs/extrafile.md)
 
 ### 08-practical
 - [ ] [Currying & Function Composition](./08-practical/currying-composition.md)
